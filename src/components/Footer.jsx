@@ -1,3 +1,5 @@
+import {Link} from 'react-router-dom';
+
 export default function Footer() {
   return (
     <footer class="page-footer">
@@ -21,7 +23,7 @@ export default function Footer() {
           <div class="footer-copyright">
             <div class="container">
             © {new Date().getFullYear} Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            <Link class="grey-text text-lighten-4 right" to="/">More Links</Link>
             </div>
           </div>
         </footer>

@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <nav>
     <div class="nav-wrapper">
-      <a href="#logo" class="brand-logo">Logo</a>
+      <Link to="/" class="brand-logo">Logo</Link>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>

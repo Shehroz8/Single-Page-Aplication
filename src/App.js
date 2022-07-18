@@ -6,7 +6,7 @@ import Home from "./page/Home"
 import About from "./page/About"
 import Contact from "./page/Contact"
 import Error from './page/Error';
-// import Movie from './page/Movie';
+import Movie from './page/Movie';
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route path='/about' component={About} />
           <Route path='/contact' component={Contact} />
-          {/* <Route path="/movies:/id" component={Movie}/> */}
+          <Route path="/movies/:id" component={Movie}/>
           <Route component={Error} />
         </Switch>
       </main>
