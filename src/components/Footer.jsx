@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom';
 
 export default function Footer() {
   return (
-    <footer class="page-footer">
+    <footer class="page-footer #1565c0 blue darken-3">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
